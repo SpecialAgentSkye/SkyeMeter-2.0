@@ -1,0 +1,27 @@
+{
+  "Author": "Your Name",
+  "Name": "SkyeMeter 2.0",
+  "InternalName": "SkyeMeter",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "SkyeMeter connects to IINACT to display real-time DPS, HPS, and encounter statistics with a customizable ImGui interface. Features include pet damage merging, dual DPS/HPS tables, history tracking, and extensive visual customization. Additionally, we calculate the actual healing done, instead of merging healing and overhealing, for a REAL display of the healing done by each Combatant.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "dps",
+    "meter",
+    "overlay",
+    "combat",
+    "parser"
+  ],
+  "CategoryTags": [
+    "ui",
+    "utility"
+  ],
+  "DalamudApiLevel": 13,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "A modern DPS meter overlay for FFXIV",
+  "Changelog": "",
+  "AcceptsFeedback": true
+}
