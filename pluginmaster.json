@@ -1,9 +1,9 @@
 [
   {
-    "Author": "Your Name",
+    "Author": "SpecialAgentSkye",
     "Name": "SkyeMeter 2.0",
     "InternalName": "SkyeMeter",
-    "AssemblyVersion": "1.0.0.0",
+    "AssemblyVersion": "1.0.0.1",
     "Description": "SkyeMeter connects to IINACT to display real-time DPS, HPS, and encounter statistics with a customizable ImGui interface. Features include pet damage merging, dual DPS/HPS tables, history tracking, and extensive visual customization. Additionally, we calculate the actual healing done, instead of merging healing and overhealing, for a REAL display of the healing done by each Combatant.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/SpecialAgentSkye/SkyeMeter-2.0",
@@ -34,3 +34,4 @@
     "LastUpdated": "1731516000"
   }
 ]
+
