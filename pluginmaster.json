@@ -24,7 +24,7 @@
     "CanUnloadAsync": false,
     "LoadPriority": 0,
     "Punchline": "A modern DPS meter overlay for FFXIV",
-    "Changelog": "Added full clipping mode! Enjoy a way way way more immersive gameplay experience without ui feeling like its floating on top of your game",
+    "Changelog": "Optimizations, and some ui updates. Also better clipping",
     "AcceptsFeedback": true,
     "DownloadLinkInstall": "https://raw.githubusercontent.com/SpecialAgentSkye/SkyeMeter-2.0/main/plugins/SkyeMeter/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/SpecialAgentSkye/SkyeMeter-2.0/main/plugins/SkyeMeter/latest.zip",
@@ -34,6 +34,7 @@
     "LastUpdated": "1731516000"
   }
 ]
+
 
 
 
