@@ -3,7 +3,7 @@
     "Author": "SpecialAgentSkye",
     "Name": "SkyeMeter 2.0",
     "InternalName": "SkyeMeter",
-    "AssemblyVersion": "2.0.1.0",
+    "AssemblyVersion": "2.1.0.0",
     "Description": "SkyeMeter connects to IINACT to display real-time DPS, HPS, and encounter statistics with a customizable ImGui interface. Features include pet damage merging, dual DPS/HPS tables, history tracking, and extensive visual customization. Additionally, we calculate the actual healing done, instead of merging healing and overhealing, for a REAL display of the healing done by each Combatant.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/SpecialAgentSkye/SkyeMeter-2.0",
@@ -24,7 +24,7 @@
     "CanUnloadAsync": false,
     "LoadPriority": 0,
     "Punchline": "A modern DPS meter overlay for FFXIV",
-    "Changelog": "Damage and healing breakdown! Hotfixes too. Healing meters are very inaccurate due to the nature of networklogs and ffxiv data inaccuracy",
+    "Changelog": "Completely rewrote Breakdown logic. Now it works proper! Fixed window size issues. Fixed saving settings properly. Removed unused settings. Fixed decimal settings not applying.",
     "AcceptsFeedback": true,
     "DownloadLinkInstall": "https://raw.githubusercontent.com/SpecialAgentSkye/SkyeMeter-2.0/main/plugins/SkyeMeter/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/SpecialAgentSkye/SkyeMeter-2.0/main/plugins/SkyeMeter/latest.zip",
@@ -34,6 +34,7 @@
     "LastUpdated": "1731516000"
   }
 ]
+
 
 
 
