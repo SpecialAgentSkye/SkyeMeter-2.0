@@ -2,7 +2,7 @@
   "Author": "SpecialAgentSkye",
   "Name": "SkyeMeter 2.0",
   "InternalName": "SkyeMeter",
-  "AssemblyVersion": "2.3.0.0",
+  "AssemblyVersion": "3.0.0.0",
   "Description": "SkyeMeter connects to IINACT to display real-time DPS, HPS, and encounter statistics with a customizable ImGui interface. Features include pet damage merging, dual DPS/HPS tables, history tracking, and extensive visual customization. Additionally, we calculate the actual healing done, instead of merging healing and overhealing, for a REAL display of the healing done by each Combatant.",
   "ApplicableVersion": "any",
   "Tags": [
@@ -22,6 +22,6 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "A modern DPS meter overlay for FFXIV",
-  "Changelog": "",
+  "Changelog": "- Connects to IINACT directly (IPC) — no more websocket setup needed. Websocket still available as fallback\n- New: Damage Taken section, with its own breakdown (by ability and attacker). Can be detached into its own window\n- New: Death recap — click a Deaths value to see the last moments before a death\n- New: Target breakdown — filter any breakdown by target, with a draggable split\n- New: Charts tab — DPS/HPS over time, crit/DH rates, damage composition, hit distribution\n- New: Status effects tab — uptimes, applications and timelines for buffs/debuffs on a player\n- New: Utility tab — interrupts, dispels, raises, mitigations and self-heals, with icons\n- New: Compare mode — side-by-side ability comparison of two players\n- New: (Experimental) DoT/HoT estimation — splits dot/hot ticks into named per-caster rows, off by default\n- Estimated dot/hot rows are tagged (DoT)/(HoT) and can never exceed what ACT reports\n- Pet abilities now group under a collapsible \"(Pet)\" bar in the breakdown\n- New columns: Interrupts (DPS table) and Dispels (HPS table)\n- Font size slider for different screen resolutions\n- Overall entries now include target breakdowns, charts, status effects and deaths\n- NPCs and chocobos now show their DPS in the rDPS column during combat instead of 0\n- Meters clear instantly when a new pull starts instead of showing the previous pull\n- Fixed encounter history sometimes failing to save (also made the history file smaller)\n- Fixed Overall breakdowns showing 0 casts and broken averages\n- Lots of internal cleanup",
   "AcceptsFeedback": true
 }
